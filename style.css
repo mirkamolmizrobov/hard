@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,800&family=Poppins:wght@200;400&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto - thin" sans-serif;
+
+}
+
+header{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1280px;
+  height: 60px;
+  background-color: black;
+  /* position: fixed; */
+  
+}
+
+
+.nav__list{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    column-gap: 20px;
+    font-weight: 300;
+    font-family: "Roboto";
+    font-size: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.nav-list:hover{
+    color:blue;
+}
+
+
+i{
+    font-size: 20px;
+}
+
+i2{
+    font-size: 15px ;
+}
+
+input{
+    border-radius:10px;
+    padding: 4px;
+}
+
+main{
+
+margin-top: 60px;
+
+
+
+}
+ .main__img img{
+    
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.main-left{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 300px;
+    margin-bottom: 10px;
+
+}
+
+.main-left h1{
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+   
+  
+
+}
+
+.main-left h2{
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 150px;
+    height: 80px;
+    background: rgba(6, 6, 178, 0.464);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7px 25px 16px 30px;
+    margin-right: px;
+}
+
+.main-left h1:hover{
+     background: rgb(58, 131, 58);
+     transition: all 0.5s ease;
+}
+
+
+.main-left h2:hover{
+    background: rgba(0, 0, 0, 0.431);
+    transition: all 0.5s ease;
+}
+
+
+
+
